@@ -1,0 +1,29 @@
+*{margin: 0;}
+
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none; color: #000000;}
+
+header{height: 8.5rem; }
+header > nav{margin: auto; display: flex; justify-content: space-between; align-items: center;}
+header > nav > .logo{display: inline-block;padding: 1.2rem 0rem 0.8rem 4.0rem;}
+header > nav > .menu{display: inline-block; padding-right: 4.0rem;}
+
+header > .nav_menu{position: relative; display: none;}
+header > .nav_menu > ul{display: inline-block;width: 100%; padding: 0rem 0rem;}
+header > .nav_menu > ul > li{list-style: none; text-align: right; background-color: #ffffff;padding: 1.3rem 2.3rem;
+border-bottom: 1px solid #000000;}
+header > .nav_menu > ul > li > a{font-family: 'Noto Sans KR', sans-serif; font-size: 1.6rem; font-weight: 500;}
+
+header > .nav_menu.active{display: flex;}
+
+section > .keyvisual{text-align:center; }
+
+section > .profile{text-align: center;}
+
+section > .Pf1{text-align: center;}
+section > .Pf2{text-align: center;}
+section > .Pf3{text-align: center;}
+section > .Pf4{text-align: center;}
+section > .visual{text-align: center;}
+footer{text-align: center;}
